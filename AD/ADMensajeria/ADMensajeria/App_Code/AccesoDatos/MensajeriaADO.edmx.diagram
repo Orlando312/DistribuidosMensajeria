@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc237f88c85c498193bd011524aa3bce" Name="Diagram1">
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.Contacto" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.EstadoUsuario" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.HistorialConversacion" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.Mensaje" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.RecuperacionPassword" Width="1.5" PointX="3" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.Rol" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.TokenSesion" Width="1.5" PointX="3" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.Usuario" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBDistribuidosMensajeriaModel.UsuarioRol" Width="1.5" PointX="6" PointY="12.625" IsExpanded="true" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__Contacto__IdUsua__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__Contacto__IdUsua__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__EstadoUsu__IdUsu__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__Historial__IdCon__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__Historial__IdUsu__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__Mensaje__IdDesti__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__Mensaje__IdRemit__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__Recuperac__IdUsu__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__UsuarioRo__IdRol__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__TokenSesi__IdUsu__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="DBDistribuidosMensajeriaModel.FK__UsuarioRo__IdUsu__3C69FB99" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

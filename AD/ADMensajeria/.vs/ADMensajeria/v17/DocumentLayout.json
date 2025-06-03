@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\app_code\\controladoras\\mensajecontroladora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\app_code\\controladoras\\mensajecontroladora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\app_code\\accesodatos\\mensajeriaado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\app_code\\accesodatos\\mensajeriaado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\app_code\\accesodatos\\mensajeriaado.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\app_code\\accesodatos\\mensajeriaado.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\app_code\\entidades\\entidadmensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\app_code\\entidades\\entidadmensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\app_code\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\app_code\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\app_code\\controladoras\\historialcontroladora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\app_code\\controladoras\\historialcontroladora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\app_code\\entidades\\entidadhistorialconversacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\app_code\\entidades\\entidadhistorialconversacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\app_code\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\app_code\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|c:\\sistemas distribuidos\\ad\\admensajeria\\admensajeria\\app_code\\accesodatos\\mensajeriaado.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6FD73A8A-167D-4D50-91C8-576CB8889E5F}|C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria|solutionrelative:admensajeria\\app_code\\accesodatos\\mensajeriaado.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MensajeriaADO.Context.cs",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.Context.cs",
+              "RelativeDocumentMoniker": "ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.Context.cs",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.Context.cs",
+              "RelativeToolTip": "ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.Context.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wCAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:49:37.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntidadMensaje.cs",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Entidades\\EntidadMensaje.cs",
+              "RelativeDocumentMoniker": "ADMensajeria\\App_Code\\Entidades\\EntidadMensaje.cs",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Entidades\\EntidadMensaje.cs",
+              "RelativeToolTip": "ADMensajeria\\App_Code\\Entidades\\EntidadMensaje.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:58:28.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MensajeControladora.cs",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Controladoras\\MensajeControladora.cs",
+              "RelativeDocumentMoniker": "ADMensajeria\\App_Code\\Controladoras\\MensajeControladora.cs",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Controladoras\\MensajeControladora.cs",
+              "RelativeToolTip": "ADMensajeria\\App_Code\\Controladoras\\MensajeControladora.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:26:35.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MensajeriaADO.cs",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.cs",
+              "RelativeDocumentMoniker": "ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.cs",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.cs",
+              "RelativeToolTip": "ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAIAwwEUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:51:09.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HistorialControladora.cs",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Controladoras\\HistorialControladora.cs",
+              "RelativeDocumentMoniker": "ADMensajeria\\App_Code\\Controladoras\\HistorialControladora.cs",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Controladoras\\HistorialControladora.cs",
+              "RelativeToolTip": "ADMensajeria\\App_Code\\Controladoras\\HistorialControladora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:55:33.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntidadHistorialConversacion.cs",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Entidades\\EntidadHistorialConversacion.cs",
+              "RelativeDocumentMoniker": "ADMensajeria\\App_Code\\Entidades\\EntidadHistorialConversacion.cs",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Entidades\\EntidadHistorialConversacion.cs",
+              "RelativeToolTip": "ADMensajeria\\App_Code\\Entidades\\EntidadHistorialConversacion.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T20:00:31.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\IService.cs",
+              "RelativeDocumentMoniker": "ADMensajeria\\App_Code\\IService.cs",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\IService.cs",
+              "RelativeToolTip": "ADMensajeria\\App_Code\\IService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:53:11.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\Web.config",
+              "RelativeDocumentMoniker": "ADMensajeria\\Web.config",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\Web.config",
+              "RelativeToolTip": "ADMensajeria\\Web.config",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-20T19:40:00.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Service.cs",
+              "RelativeDocumentMoniker": "ADMensajeria\\App_Code\\Service.cs",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\Service.cs",
+              "RelativeToolTip": "ADMensajeria\\App_Code\\Service.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA5wDMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:32:23.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MensajeriaADO.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.edmx",
+              "RelativeDocumentMoniker": "ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.edmx",
+              "ToolTip": "C:\\Sistemas distribuidos\\AD\\ADMensajeria\\ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.edmx [Diagram1]",
+              "RelativeToolTip": "ADMensajeria\\App_Code\\AccesoDatos\\MensajeriaADO.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-20T19:43:01.557Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
