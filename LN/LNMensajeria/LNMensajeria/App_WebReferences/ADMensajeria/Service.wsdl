@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:26745/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:26745/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:26745/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService_InsertarMensaje_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarMensaje" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertarMensaje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarMensajeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ActualizarMensaje_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarMensaje" />
+  </wsdl:message>
+  <wsdl:message name="IService_ActualizarMensaje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarMensajeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_EliminarMensaje_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarMensaje" />
+  </wsdl:message>
+  <wsdl:message name="IService_EliminarMensaje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarMensajeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerMensaje_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMensaje" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerMensaje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMensajeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerMensajesPorUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMensajesPorUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerMensajesPorUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMensajesPorUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerMensajesPorConversacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMensajesPorConversacion" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerMensajesPorConversacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMensajesPorConversacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerTodosLosMensajes_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTodosLosMensajes" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerTodosLosMensajes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTodosLosMensajesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerMensajesPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMensajesPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerMensajesPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMensajesPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertarHistorial_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarHistorial" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertarHistorial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarHistorialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ActualizarHistorial_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarHistorial" />
+  </wsdl:message>
+  <wsdl:message name="IService_ActualizarHistorial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarHistorialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_EliminarHistorial_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarHistorial" />
+  </wsdl:message>
+  <wsdl:message name="IService_EliminarHistorial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarHistorialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerHistorial_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerHistorial" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerHistorial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerHistorialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerHistorialPorUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerHistorialPorUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerHistorialPorUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerHistorialPorUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerHistorialPorConversacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerHistorialPorConversacion" />
+  </wsdl:message>
+  <wsdl:message name="IService_ObtenerHistorialPorConversacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerHistorialPorConversacionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService">
+    <wsdl:operation name="InsertarMensaje">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InsertarMensaje" message="tns:IService_InsertarMensaje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InsertarMensajeResponse" message="tns:IService_InsertarMensaje_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarMensaje">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ActualizarMensaje" message="tns:IService_ActualizarMensaje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ActualizarMensajeResponse" message="tns:IService_ActualizarMensaje_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarMensaje">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/EliminarMensaje" message="tns:IService_EliminarMensaje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/EliminarMensajeResponse" message="tns:IService_EliminarMensaje_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMensaje">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ObtenerMensaje" message="tns:IService_ObtenerMensaje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ObtenerMensajeResponse" message="tns:IService_ObtenerMensaje_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMensajesPorUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ObtenerMensajesPorUsuario" message="tns:IService_ObtenerMensajesPorUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ObtenerMensajesPorUsuarioResponse" message="tns:IService_ObtenerMensajesPorUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMensajesPorConversacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ObtenerMensajesPorConversacion" message="tns:IService_ObtenerMensajesPorConversacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ObtenerMensajesPorConversacionResponse" message="tns:IService_ObtenerMensajesPorConversacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTodosLosMensajes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ObtenerTodosLosMensajes" message="tns:IService_ObtenerTodosLosMensajes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ObtenerTodosLosMensajesResponse" message="tns:IService_ObtenerTodosLosMensajes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMensajesPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ObtenerMensajesPorEstado" message="tns:IService_ObtenerMensajesPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ObtenerMensajesPorEstadoResponse" message="tns:IService_ObtenerMensajesPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarHistorial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InsertarHistorial" message="tns:IService_InsertarHistorial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InsertarHistorialResponse" message="tns:IService_InsertarHistorial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarHistorial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ActualizarHistorial" message="tns:IService_ActualizarHistorial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ActualizarHistorialResponse" message="tns:IService_ActualizarHistorial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarHistorial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/EliminarHistorial" message="tns:IService_EliminarHistorial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/EliminarHistorialResponse" message="tns:IService_EliminarHistorial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerHistorial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ObtenerHistorial" message="tns:IService_ObtenerHistorial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ObtenerHistorialResponse" message="tns:IService_ObtenerHistorial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerHistorialPorUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ObtenerHistorialPorUsuario" message="tns:IService_ObtenerHistorialPorUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ObtenerHistorialPorUsuarioResponse" message="tns:IService_ObtenerHistorialPorUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerHistorialPorConversacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ObtenerHistorialPorConversacion" message="tns:IService_ObtenerHistorialPorConversacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ObtenerHistorialPorConversacionResponse" message="tns:IService_ObtenerHistorialPorConversacion_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService" type="tns:IService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertarMensaje">
+      <soap:operation soapAction="http://tempuri.org/IService/InsertarMensaje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarMensaje">
+      <soap:operation soapAction="http://tempuri.org/IService/ActualizarMensaje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarMensaje">
+      <soap:operation soapAction="http://tempuri.org/IService/EliminarMensaje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMensaje">
+      <soap:operation soapAction="http://tempuri.org/IService/ObtenerMensaje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMensajesPorUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService/ObtenerMensajesPorUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMensajesPorConversacion">
+      <soap:operation soapAction="http://tempuri.org/IService/ObtenerMensajesPorConversacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTodosLosMensajes">
+      <soap:operation soapAction="http://tempuri.org/IService/ObtenerTodosLosMensajes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMensajesPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IService/ObtenerMensajesPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarHistorial">
+      <soap:operation soapAction="http://tempuri.org/IService/InsertarHistorial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarHistorial">
+      <soap:operation soapAction="http://tempuri.org/IService/ActualizarHistorial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarHistorial">
+      <soap:operation soapAction="http://tempuri.org/IService/EliminarHistorial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerHistorial">
+      <soap:operation soapAction="http://tempuri.org/IService/ObtenerHistorial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerHistorialPorUsuario">
+      <soap:operation soapAction="http://tempuri.org/IService/ObtenerHistorialPorUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerHistorialPorConversacion">
+      <soap:operation soapAction="http://tempuri.org/IService/ObtenerHistorialPorConversacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IService" binding="tns:BasicHttpBinding_IService">
+      <soap:address location="http://localhost:26745/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
